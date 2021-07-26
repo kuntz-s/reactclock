@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+.page{ 
+    width:100%;
+    overflow:auto;
+   
+    }
+
+    .afficher{
+        float:left; 
+        width: 58%;
+        height:734px;
+        background-color:black;
+        color:#FF8C00
+
+    }
+
+    .modification{
+        float:right;
+        width: 42%;
+        height:734px;
+        color:black;
+        background-color: #FF8C00;
+    }
+
+.horloge{
+    font-size: 35px;
+    text-align:center;
+}
+
+.jour{
+    text-align:center;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+
+.temps{
+    text-align:center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+.horaire, .cal{
+    text-align:center;
+    font-size: 80px;
+}
+
+
+
+.modif{
+    font-size: 35px;
+    text-align:center;
+}
+
+.tout{
+    text-align:center;
+    font-size: 30px;
+}
+
+.modifier , .reinitialiser{
+    font-size:20px;
+    background-color: #FF8C00;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0px black;
+}
+
+.init{
+    text-align:center;
+}
+
+.init p{
+    font-size:30px;
+    font-weight: bold;
+
+}
